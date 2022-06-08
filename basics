@@ -1,0 +1,66 @@
+li is the direct child of unordered or ordered list.
+<ul>
+  <li>Bantam
+    <ul>
+      <li>Silkie</li>
+      <li>Polish</li>
+    </ul>
+  </li>
+
+Anchor element <a> are inline elements.
+Images : The HTML <img> element embeds an image into the document.
+<img class = "fit-picture"
+src = ""
+alt = ""> // alt is useful for accessibility whenever the image is not loaded on the webpage (network errors, etc).
+
+<div> The Content Division Element 
+generic container for flow content (group things)
+no effect on the content or layout
+block level element 
+
+<span>
+generic inline container for phrasing content
+
+<hr> horizontal rule ; thematic break (story break)
+
+HTML Entities 
+start with an ampersand and end with a semicolon
+used to display resered characters that normally would be invalid
+also used in place wehre it is difficult to type characters
+the broweser interprets them and renders the correct character instead
+example &lt; for < (less than) and &gt; for > (greater than)
+
+The <header> HTML element represents introductory content, typically a group of introductory or navigational aids. 
+It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+
+<nav>: The Navigation Section element
+The <nav> HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. 
+Common examples of navigation sections are menus, tables of contents, and indexes.
+<nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="#">Bikes</a></li>
+        <li class="crumb"><a href="#">BMX</a></li>
+        <li class="crumb">Jump Bike 3000</li>
+    </ol>
+</nav>
+
+<main>
+The <main> HTML element represents the dominant content of the <body> of a document. 
+The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.
+
+<section>: The Generic Section element
+The <section> HTML element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. 
+Sections should always have a heading, with very few exceptions.
+<h1>Choosing an Apple</h1>
+<section>
+    <h2>Introduction</h2>
+    <p>This document provides a guide to help with the important task of choosing the correct Apple.</p>
+</section>
+
+Semantic - adding meaning to our markup
+
+<meta>: The metadata element
+The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title>.
+
+Table 
+Structured sets of data made up of rows and columns
