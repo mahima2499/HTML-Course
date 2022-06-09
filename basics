@@ -64,3 +64,50 @@ The <meta> HTML element represents metadata that cannot be represented by other 
 
 Table 
 Structured sets of data made up of rows and columns
+<table>: The Table element
+The <table> HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">The table header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>The table body</td>
+            <td>with two columns</td>
+        </tr>
+    </tbody>
+</table>
+
+<form>: The Form element
+The <form> HTML element represents a document section containing interactive controls for submitting information.
+does not have any visual impact
+fill the form with a collection of inputs, checkboxes, buttons, etc.
+The action attribute specifies WHERE the form data has to be sent.
+The method attribute specifies which HTTP method should be used.
+
+<input>: The Input (Form Input) element
+The <input> HTML element is used to create interactive controls for web-based forms in order to accept data from the user
+<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+
+<label>: The Input Label element
+The <label> HTML element represents a caption for an item in a user interface.
+<div class="preference">
+    <label for="cheese">Do you like cheese?</label>
+    <input type="checkbox" name="cheese" id="cheese">
+</div>
+
+<div class="preference">
+    <label for="peas">Do you like peas?</label>
+    <input type="checkbox" name="peas" id="peas">
+</div>
+
+<button>: The Button element
+The <button> HTML element is an interactive element activated by a user with a mouse, keyboard, finger, voice command, or other assistive technology. 
+Once activated, it then performs a programmable action, such as submitting a form or opening a dialog.
+<button class="favorite styled"
+        type="button">
+    Add to favorites
+</button>
